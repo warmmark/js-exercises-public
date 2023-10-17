@@ -1,0 +1,28 @@
+{
+  "name": "project-code",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "npx jest",
+    "start": "node bin/index.js"
+  },
+  "author": "",
+  "license": "",
+  "homepage": "",
+  "dependencies": {
+    "@jest/globals": "^29.5.0",
+    "@types/jest": "^29.5.2",
+    "commander": "^10.0.1",
+    "lodash": "^4.17.21",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
