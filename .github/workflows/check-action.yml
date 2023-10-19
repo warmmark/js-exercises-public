@@ -2,10 +2,10 @@ name: check-action
 on:
   push:
     branches:
-      - exercise_01
+      - exercise_02
   pull_request:
     branches:
-      - 'exercise_01'
+      - exercise_02
 jobs:
   test:
     runs-on: ubuntu-latest
